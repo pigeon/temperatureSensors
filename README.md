@@ -10,10 +10,19 @@ I was looking for something that can be connected to and controlled by raspberry
 
 I left buying receiver until the very end because I have seen there are quite a lot available on Amazon. However, to my surprise, it took me almost two weeks to find the receiver that would work adequately. 
 
-This one ![image](images/433mhz_receiver_sr.jpg) was  receiving a signal in a range of 1m and this one I haven't been able to get working at all. ![image](images/433mhz_receiver_nw.jpg) 
+![image](images/433mhz_receiver_sr.jpg) 
 
-The one that I eventually used for this project is RXB6 433Mhz Superheterodyne Wireless Receiver ![image](images/433mhz_receiver.jpg)
+This one was  receiving a signal in a range of 1m.
 
+
+![image](images/433mhz_receiver_nw.jpg) 
+
+This one I haven't been able to get working at all. 
+
+
+![image](images/433mhz_receiver.jpg)
+
+The one that I eventually used for this project is RXB6 433Mhz Superheterodyne Wireless Receiver
 
 ## Raspberry pi and configuration
 
@@ -21,7 +30,7 @@ This was probably the easiest part of the project. Mostly because there is a bri
 
 There are couple of things I want to mention here. the first one is that I had a problem to configure `libgpiod` library because of the missing linux kernel headers. There are workarounds described in this [issue](https://github.com/aquaticus/nexus433/issues/21) and they worked for me.
 
-![image](images/Digoo_DG-R8S.png){:height="50%" width="50%"}
+![image](images/Digoo_DG-R8S.png)
 
 Another thing is that if somehow you would get hold of *Digoo DG-R8S 433MHz* (on the picture above) it won't work out of the box because it uses different protocol but there is a [PR](https://github.com/aquaticus/nexus433/pull/16) that works for  *Digoo DG-R8S 433MHz* and for *Digoo-DG-R8H 433MHz* sensors.
 
