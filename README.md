@@ -21,7 +21,7 @@ This was probably the easiest part of the project. Mostly because there is a bri
 
 There are couple of things I want to mention here. the first one is that I had a problem to configure `libgpiod` library because of the missing linux kernel headers. There are workarounds described in this [issue](https://github.com/aquaticus/nexus433/issues/21) and they worked for me.
 
-![image](images/Digoo_DG-R8S.png)
+![image](images/Digoo_DG-R8S.png){:height="50%" width="50%"}
 
 Another thing is that if somehow you would get hold of *Digoo DG-R8S 433MHz* (on the picture above) it won't work out of the box because it uses different protocol but there is a [PR](https://github.com/aquaticus/nexus433/pull/16) that works for  *Digoo DG-R8S 433MHz* and for *Digoo-DG-R8H 433MHz* sensors.
 
