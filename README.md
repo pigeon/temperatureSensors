@@ -57,7 +57,7 @@ The main grafana how to source for me was this [post](https://mostlyoperational.
 
 ![Image](images/grafana.png)
 
-Couple of things, which I think, is worth mentioning is that I configured Telegraf MQTT input plugin to collect data from sensors and push them into InfluxDB. I also added two ruby scripts. One to get an outside temperature from [Weather API](https://openweathermap.org/api) and then publish it to MQTT broker. Another one for testing internet bandwidth using speedtest.net and then publish results to MQTT. The last thing I want to mention here is that I tried to wrap [nexus433 service](https://github.com/aquaticus/nexus433) into docker container but due to lack of knowledge I haven't been able to complete it. 
+Couple of things, which I think, is worth mentioning is that I configured Telegraf MQTT input plugin to collect data from sensors and push them into InfluxDB. I also added two ruby scripts. One to get an outside temperature from [Weather API](https://openweathermap.org/api) and then publish it to MQTT broker. Another one for testing internet bandwidth using speedtest.net and then publish results to MQTT. The last thing I want to mention here is that I tried to wrap [nexus433 service](https://github.com/aquaticus/nexus433) into [docker container](nexus-service/Dockerfile) but due to lack of knowledge I haven't been able to complete it. 
 
 ## Antenna
 
