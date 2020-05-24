@@ -61,4 +61,4 @@ Couple of things, which I think, is worth mentioning is that I configured Telegr
 
 ## Antenna
 
-You can see some gaps on the graph above and it's happening because the signal from the sensor can't reach the receiver. I was trying to move sensors around to solve this problem but this strategy was neither effective nor sustainable so I eventually created a simple  [17.3 cm antenna](https://dronebotworkshop.com/433mhz-rf-modules-arduino/). It solved problem of lost sigmnals from some sensors. 
+You can see some gaps on the graph above and it's happening because the signal from the sensor can't reach the receiver. I was trying to move sensors around to solve this problem but this strategy was neither effective nor sustainable so I eventually created a simple  [17.3 cm antenna](https://dronebotworkshop.com/433mhz-rf-modules-arduino/). It solved the problem of lost signals from some sensors. 
