@@ -1,0 +1,5 @@
+source 'https://rubygems.org' do
+    gem 'open-weather'
+    gem 'mqtt'
+    gem 'json'
+  end
